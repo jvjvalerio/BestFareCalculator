@@ -3,8 +3,8 @@ import java.util.Arrays;
 public class TransitCalculator {
 
   // Instance Fields
-  protected int numOfDays = 0;
-  protected int numOfRides = 0;
+  private int numOfDays = 0;
+  private int numOfRides = 0;
   final double payPerRide = 2.75;
   final double sevenDayUnlimited = 33.00;
   final double thirtyDayUnlimited = 127.00;
